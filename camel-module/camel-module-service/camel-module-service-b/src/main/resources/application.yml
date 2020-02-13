@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: camel-module-b
+  cloud:
+    nacos:
+      discovery:
+        ####nacos注册地址
+        server-addr: 192.168.206.128:8848
+server:
+  port: 9010

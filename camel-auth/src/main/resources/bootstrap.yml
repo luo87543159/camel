@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: camel-auth
+  cloud:
+    nacos:
+      ###注册中心
+      discovery:
+        server-addr: 192.168.206.128:8848
+      ### 配置中心
+      config:
+        server-addr: 192.168.206.128:8848
+        group: DEFAULT_GROUP
+        file-extension: yaml
+
+server:
+  port: 8900

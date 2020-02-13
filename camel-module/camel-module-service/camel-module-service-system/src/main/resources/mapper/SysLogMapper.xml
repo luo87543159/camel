@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.camel.system.mapper.SysLogMapper">
+  <resultMap id="BaseResultMap" type="com.camel.system.domain.SysLog">
+    <!--@mbg.generated generated on Sat Feb 01 18:39:55 CST 2020.-->
+    <!--@Table sys_log-->
+    <result column="ID" jdbcType="VARCHAR" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="IP" jdbcType="VARCHAR" property="ip" />
+    <result column="ACCOUNT_ID" jdbcType="VARCHAR" property="accountId" />
+    <result column="STATUS" jdbcType="INTEGER" property="status" />
+    <result column="execute_time" jdbcType="VARCHAR" property="executeTime" />
+    <result column="CREATED_BY" jdbcType="VARCHAR" property="createdBy" />
+    <result column="CREATED_TIME" jdbcType="TIMESTAMP" property="createdTime" />
+    <result column="UPDATED_BY" jdbcType="VARCHAR" property="updatedBy" />
+    <result column="UPDATED_TIME" jdbcType="TIMESTAMP" property="updatedTime" />
+  </resultMap>
+</mapper>
