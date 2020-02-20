@@ -11,6 +11,7 @@ public class SysMenu implements Serializable {
     /**
      * ID
      */
+    @Id
     @Column(name = "ID")
     private String id;
 
@@ -19,6 +20,12 @@ public class SysMenu implements Serializable {
      */
     @Column(name = "P_ID")
     private String pId;
+
+    /**
+     * views下面的vue文件
+     */
+    @Column(name = "`PATH`")
+    private String path;
 
     /**
      * 资源地址
@@ -35,8 +42,8 @@ public class SysMenu implements Serializable {
     /**
      * 资源名称
      */
-    @Column(name = "`NAME`")
-    private String name;
+    @Column(name = "TITLE")
+    private String title;
 
     /**
      * 资源级别
